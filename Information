@@ -4,3 +4,13 @@ git
 Ceci est une introduction au système distribué de gestion de code source Git. Si vous n'avez pas encore utilisez Git voici votre chance de voir les concepts de base pour l'intégrer dans 
 Maîtriser Git en 28 minutes et 32 secondes
 Commande git https://www.youtube.com/watch?v=5IcYILdejs8
+
+git init : Initialise le nouveau repository
+git status : Affiche les changements en attente
+
+git add . : Ajoute en staging de changement
+git commt -m "message" : créer un commit
+
+git branch nom-de-la-branch : créer une branche
+git checkout non-de-la-branche : change de branche
+git merge nom-de-la-branche : migrer les changement
