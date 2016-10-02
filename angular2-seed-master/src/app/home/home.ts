@@ -10,5 +10,5 @@ import {Movies} from '../movies/movies.component';
 
 export class Home {
 
-  constructor  (){}
+
 }

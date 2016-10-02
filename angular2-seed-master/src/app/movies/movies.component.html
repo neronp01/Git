@@ -1,15 +1,19 @@
-<div> movies component en construction</div>
+<h3>Films vus récemment</h3>
 
 
 
 
 
 
-<p>Ceci est un chat</p>
-<ul>
-    <li>Gaspar</li>
-    <li>José</li>
-    <li>Liza</li>
-    <li>Florent</li>
-</ul>
+<p>Ceux-ci sont des films que j'ai vue pendant le mois de septembre</p>
+
+    <ul>
+        <li *ngFor="let movie of recentlyWatchedMovies">
+            {{movie}}
+        </li>
+    </ul>
+        
+    
+    
+
         

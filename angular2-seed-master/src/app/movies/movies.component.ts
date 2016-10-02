@@ -7,6 +7,6 @@ import {Component} from '@angular/core';
 })
 
 export class Movies {
+    recentlyWatchedMovies = ['The big Lebowski','Ant-man','The Revenant'];
 
-    
 }
